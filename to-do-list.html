@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TODO LIST</title>
+
+  <link rel="stylesheet" href="Intro-to-html/styles/todolist.css">
+
+  <style>
+
+    body {
+      font-family: Arial;
+      background-image: url('background/student-studying.gif');
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="main-container">
+
+    <p class="title-todolist"></p>
+
+    <div class="input-container">
+      <input placeholder="Todo name"
+      class="js-name-input name-input">
+      <input class="js-date-input due-date-input" type="date">
+      <button class="add" onclick="
+        addTodo()
+      ">Add</button>
+    </div>
+
+    <div class="js-todo-list todo-grid"></div>
+
+    <script src="scripts/to-do-list.js"></script>
+
+  </div>
+  
+</body>
+
+</html>

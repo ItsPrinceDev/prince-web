@@ -1,0 +1,77 @@
+body {
+  font-family: Arial;
+}
+.title-todolist{
+  text-align: center;
+  margin: 50px;
+}
+.main-container {
+  display: grid;
+  justify-content: center;
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: 300px 250px 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.input-container {
+  margin-bottom: 10px;
+}
+
+.name-input {
+  font-size: 15px;
+  padding: 32.2px 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.due-date-input{
+  font-size: 15px;
+  padding: 30px 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.add {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 32.2px 80px;
+  border-radius: 50px;
+}
+
+.delete {
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 30px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.todo-grid {
+  display: grid;
+  grid-template-columns: 560px 1fr;
+  column-gap: 10px;
+  
+}
+.delete {
+  padding: 30px 80px;
+}
+.added-text {
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: 300px 250px;
+  column-gap: 10px;
+  border-radius: 50px;
+  align-items: center;
+  padding-left: 30px;
+  height: 75px;
+  margin-bottom: 10px;
+  background-color: white;
+}
