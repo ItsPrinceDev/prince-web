@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Think Pair Share</title>
+
+  <style>
+
+    body {
+      font-family: Arial;
+      font-weight: bold;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('backg-image/study2.gif');
+      background-size: cover; /* Cover the entire screen */
+      background-position: center; /* Center the background image */
+     
+    }
+
+    .main-container {
+      display: grid;
+      background-color: transparent;
+      max-width: 1500px;
+    }
+
+    .column-guides-container,
+    .question-1-container,
+    .question-2-container, 
+    .question-3-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .question,
+    .answers {
+      background-color: transparent;
+      display: flex;
+      border: 1px solid rgb(94, 89, 89);
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      margin-left: -1px;
+      margin-bottom: -1px;
+    }
+    .question {
+      text-align: center;
+    }
+    .answers {
+      text-align: justify;
+      
+    }
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4 {
+      background-color: transparent;
+      border: 1px solid rgb(94, 89, 89);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      text-align: center;
+      margin-left: -1px;
+      margin-bottom: -1px;
+    }
+
+    .audio-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="main-container">
+
+    <div class="column-guides-container">
+
+      <div class="column-1">Problems</div>
+      <div class="column-2">What I thought about the topic</div>
+      <div class="column-3">What my partner thought about the topic</div>
+      <div class="column-4">What we decided to share</div>
+
+
+    </div>
+
+    <div class="question-1-container">
+      
+      <div class="question">
+      1. Why do you thinks the society readily accepts the benifits
+      of science and technology even though negative results also come
+      out from them?
+      </div>
+      <div class="answers">
+        Society readily accepts the benefits of science and technology because they often 
+        lead to immediate improvements in quality of life, such as advancements in 
+        healthcare, communication, and convenience, even though there may be negative 
+        consequences in the long run.
+      </div>
+      <div class="answers">
+        Society embraces the benefits of science and technology because they bring 
+        immediate solutions to everyday challenges, even though their negative 
+        consequences may not be immediately felt or understood.
+      </div>
+      <div class="answers">
+        We decided to share that society readily accepts the benefits of science 
+        and technology because the positive impacts are immediate and visible, 
+        while the negative consequences are often less noticeable or delayed.
+      </div>
+
+    </div>
+
+    <div class="question-2-container">
+      
+      <div class="question">
+      2. How is science and technology affecting the growth of a nation?
+      </div>
+      <div class="answers">
+        Science and technology drive a nation's growth by fostering innovation, 
+        improving productivity, creating jobs, and solving critical challenges 
+        in sectors like education, healthcare, and infrastructure.
+      </div>
+      <div class="answers">
+        Science and technology contribute to a nation's growth by enhancing 
+        productivity, improving healthcare, and enabling global 
+        competitiveness.
+      </div>
+      <div class="answers">
+        We decided to share that science and technology drive the growth of 
+        a nation by improving infrastructure, boosting economic productivity, 
+        advancing education, and fostering innovation.
+      </div>
+
+    </div>
+
+    <div class="question-3-container">
+      
+      <div class="question">
+      3. As a student of STS, how can you be a guardian of the society?
+      Cite concrete examples.
+      </div>
+      <div class="answers">
+        As a student of STS, I can act as a guardian by promoting responsible innovation, 
+        raising awareness of ethical concerns, and advocating for policies 
+        that balance progress with sustainability and social well-being.
+      </div>
+      <div class="answers">
+        As a student of STS, I can act as a guardian of society by ensuring that 
+        technological advancements are aligned with ethical standards, advocating 
+        for responsible innovation, and addressing social inequalities.
+      </div>
+      <div class="answers">
+        We decided to share that as a student of STS, we can be guardians of 
+        society by promoting ethical use of technology, advocating for 
+        sustainable practices, and raising awareness about the potential 
+        social impacts of scientific advancements
+      </div>
+
+    </div>
+
+    <div class="audio-container">
+      <audio class="my_audio"  controls autoplay loop>
+        <source src="sound/mysound.ogg" type="audio/ogg">
+        <source src="sound/mysound.mp3" type="audio/mp3">
+      </audio>
+    </div>
+
+  </div>
+
+  
+ 
+</body>
+</html>
